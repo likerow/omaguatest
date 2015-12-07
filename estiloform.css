@@ -1,0 +1,226 @@
+*{
+	
+}
+#global{
+	height: 1000px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left:auto;	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url(c.jpg)  ;
+	background-repeat: no-repeat;
+	}
+#head{
+	height: 100px;
+	width: 1024px;
+	position: relative;
+
+}
+#espaciador{
+	height: 20px;
+	width: 1004px;
+	background: #fff;
+	padding-top: 2px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+}
+#menu{
+	height: 50px;
+	width: 1024px;	
+}
+
+
+div #inicio,#resena,div#misionvision,div#constitucion, div#otro  {
+	width: 204.8px;
+	height: 50px;
+	background: #A9F5BC;
+	float: left;
+	opacity: 0.5;
+}
+
+
+	
+	a#a,#b,#c,#d,#e{
+	color: #000;
+	
+}
+#espaciador2{
+	height: 30px;
+	width: 1024px;
+	
+}
+#f{
+	height: 677.97146933px;
+	width: 1024px;
+	
+}
+#formu{
+	height: 600.97146933px;
+	width: 570px;
+	background: #fff;
+	float: left;
+	padding-top: 47px;
+	padding-left: 30px
+}
+#img1{
+	width: 394px;
+	height: 602.97146933px;
+	
+	float: right;
+
+}
+    .final{
+	height: 200px;
+	width:964px;
+	background: #000;
+	margin: auto;
+	padding: 30px;
+}
+#formu{
+	margin: auto;
+}
+#inscri{
+	color: white;
+}
+#inscribete{
+	color: black;
+
+
+
+}
+h1{
+	font-family: "verdana";
+	text-align: center;
+    }
+.contact ul {
+	list-style: none;
+}
+.contact label{
+	
+	display: inline-block;
+	width: 300px;
+}
+#i1{
+	float: right;
+	height: 30px;
+	width: 200px;
+}
+#c{
+	padding-top: 15px;
+	height: 100px;
+	width: 250px;
+}
+/*estilo de flotante*/
+
+
+#costo{
+	background: #fff;
+	width: 394px;
+	height: 50px;
+	padding-bottom: 20px;
+}
+/*efecto hover */
+div#inicio:hover{
+	
+opacity: 0.8;
+	-webkit-transition: opacity .2s;
+}
+
+div#resena:hover{
+	
+	opacity: 0.9;
+	-webkit-transition: opacity .2s;
+}
+div#misionvision:hover{
+	
+	opacity: 0.9;
+	-webkit-transition: opacity .2s;
+}
+div#constitucion:hover{
+	
+	opacity: 0.9;
+	-webkit-transition: opacity .2s;
+}
+div#otro:hover{
+	
+	opacity: 0.9;
+	-webkit-transition: opacity .2s;
+}
+/* pagina de promocion */
+#globale{
+	height: 1000px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left:auto;	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url(c.jpg)  ;
+	background-repeat: no-repeat;
+	}
+
+/* pertence a la pagina llamada encuesta.php
+*/
+#cuerpo{
+	width: 1024px;
+	height: 800px;
+background: #fff;
+opacity: 0.6;
+}
+.en{
+	height: 600px;
+	width: 400px;
+	float: left;
+	display: inline-block;
+
+	margin: 25px;
+	padding: 30px;
+}
+/* otros c
+omo siguenos
+*/
+div#encuesta{
+	float: left;
+	height: 300px;
+	display: inline;
+}
+div#siguenos{
+	float: right;
+}
+img.dsiguenos{
+	height: 50px;
+	margin: 10px;
+	-webkit-border-radius: 90%;
+ 	-webkit-box-shadow: 0px 0px 0px 20px rgba(255,255,255,0);
+ 	-webkit-transition:box-shadow .4s;
+}
+img.dsiguenos:hover{
+     
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+#seguinos{
+	color: #fff;
+}
+.letra{
+	margin-right: 60px;
+	color: #fff;
+	
+}
+.letrasfinalstyle{
+	text-decoration: none;
+	color: #fff;
+}
+/*
+del tablas de encuesnta
+
+*/
+#tablaencuesta{
+	border-collapse: separate;
+  border-spacing:  5px 15px;
+}
+#cuerpos{
+	width: 1024px;
+	height: 785px;
+background: #fff;
+opacity: 0.9;
+}
