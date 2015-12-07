@@ -5,10 +5,10 @@
 <div align="center"> 
 <?php
     $id=$_POST['id'];
-    $con=mysql_connect("localhost","root","sofiaqsy.");
-    mysql_select_db("datosgenerales",$con) or die("no se pudo conectar");
+    $con=mysql_connect("23.21.99.186","prod_key","prod_key");
+    mysql_select_db("prod_test_key_omagua",$con) or die("no se pudo conectar");
     $sql="delete from registro where id='$id'";
-    mysql_db_query("datosgenerales",$sql)or die("no");
+    mysql_db_query("prod_test_key_omagua",$sql)or die("no");
     
 ?>
 </div>

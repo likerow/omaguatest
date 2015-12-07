@@ -1,4 +1,4 @@
 <?php
-$conexion=mysql_connect("localhost","root","sofiaqsy.")or die("nose puede");
+$conexion=mysql_connect("23.21.99.186","prod_key","prod_key")or die("nose puede");
 ?>
 

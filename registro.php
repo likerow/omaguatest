@@ -1,10 +1,10 @@
 <?php
 
 
-$conexion=mysql_connect("localhost","root","sofiaqsy.");
+$conexion=mysql_connect("23.21.99.186","prod_key","prod_key");
 if($conexion){
 
-	mysql_select_db("datosgenerales",$conexion);
+	mysql_select_db("prod_test_key_omagua",$conexion);
 }
 
 $nombre=$_POST["nombre"];

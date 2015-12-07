@@ -8,7 +8,7 @@
 <h1 align="center">Reporte de usuarios</h1>
 <br><br>
 <?php 
-$con=mysql_connect("localhost","root","sofiaqsy.");
+$con=mysql_connect("23.21.99.186","prod_key","prod_key");
 mysql_select_db("datosgenerales",$con) or die("no se pudo conectar ");
 $sql="SELECT*FROM registro";
 $resultado=mysql_db_query("datosgenerales",$sql);

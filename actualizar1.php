@@ -6,13 +6,13 @@
  <h1>Actualiza Registro</h1>
 <br><br>
 <?php
-    $con=mysql_connect("localhost","root","sofiaqsy.");
-    mysql_select_db("datosgenerales",$con);
+    $con=mysql_connect("23.21.99.186","prod_key","prod_key");
+    mysql_select_db("prod_test_key_omagua",$con);
     echo'<form method="post" action="actualiza2.php">';
     echo'<br>Codigo<br>';
     $sql="select id from registro order by id";
 
-    $resultado=mysql_db_query("datosgenerales",$sql);
+    $resultado=mysql_db_query("prod_test_key_omagua",$sql);
     echo'<select name="id">';
     while($fila=mysql_fetch_array($resultado))
     {echo '<option>'.$fila["id"];}
